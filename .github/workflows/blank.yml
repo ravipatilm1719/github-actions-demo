@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Print message
-        run: echo "Hello KR- Pipeline Running!"
+        run: echo "Hello KR2- Pipeline Running!"
