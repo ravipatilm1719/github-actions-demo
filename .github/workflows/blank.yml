@@ -1,7 +1,7 @@
 name: First Pipeline
 
 on:
-  push:
+  pull_request:
     branches:
       - main
 
@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: Print message
-        run: echo "Hello Ravi - Pipeline Running!"
+        run: echo "Hello KR- Pipeline Running!"
